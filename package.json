@@ -1,0 +1,20 @@
+{
+  "name": "nwitch-bitcoin-price",
+  "version": "0.0.0",
+  "description": "nwitch plugin for getting bitstamp's last sell price",
+  "keywords": [
+    "nwitch",
+    "nwitch-plugin"
+  ],
+  "repository": "nwitch/nwitch-bitcoin-price",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "dependencies": {
+    "bitstamp": "^0.1.5"
+  }
+}
