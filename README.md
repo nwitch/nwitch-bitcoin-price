@@ -1,6 +1,6 @@
 # nwitch-bitcoin-price
 
-[![Dependency Status](https://gemnasium.com/nwitch/nwitch-bitcoin-price)](https://gemnasium.com/nwitch/nwitch-bitcoin-price)
+[![Dependency Status](https://gemnasium.com/nwitch/nwitch-bitcoin-price.png)](https://gemnasium.com/nwitch/nwitch-bitcoin-price)
 
 nwitch plugin for getting bitstamp's last sell price.
 
