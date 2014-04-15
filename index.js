@@ -1,3 +1,4 @@
+var behest = require('behest');
 var Bitstamp = require('bitstamp');
 var bitstamp = new Bitstamp();
 
@@ -8,20 +9,22 @@ function plugin() {
       var to = evt.to;
       var message = evt.message;
 
-      if (message.charAt(0) === '!') {
-        var command = message.split(' ')[0].replace('!', '');
-        if (command === 'bitcoin') {
-          var destination = to.charAt(0) === '#' ? to : from;
+      if (!behest.isValid(message)) {
+        return;
+      }
 
-          bitstamp.ticker(function(error, ticker) {
-            if (error) {
-              irc.send(destination, 'Error getting Bitcoin price.');
-              return;
-            }
+      var command = behest(message).command;
+      if (command === 'bitcoin') {
+        var destination = to.charAt(0) === '#' ? to : from;
 
-            irc.send(destination, 'Last Bitcoin price: $' + ticker.last);
-          });
-        }
+        bitstamp.ticker(function(error, ticker) {
+          if (error) {
+            irc.send(destination, 'Error getting Bitcoin price.');
+            return;
+          }
+
+          irc.send(destination, 'Last Bitcoin price: $' + ticker.last);
+        });
       }
     });
   };
