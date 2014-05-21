@@ -55,7 +55,7 @@ client.use(nwitchBitcoinPrice());
 ## Installation
 
 ``` bash
-$ npm install --save nwitch-bitcoin-price
+$ npm install nwitch-bitcoin-price
 ```
 
 ## API
