@@ -1,6 +1,6 @@
 {
   "name": "nwitch-bitcoin-price",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "nwitch plugin for getting bitstamp's last sell price",
   "keywords": [
     "nwitch",
