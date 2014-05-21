@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/nwitch/nwitch-bitcoin-price.svg)](https://travis-ci.org/nwitch/nwitch-bitcoin-price)
 [![Dependency Status](https://gemnasium.com/nwitch/nwitch-bitcoin-price.png)](https://gemnasium.com/nwitch/nwitch-bitcoin-price)
 
-[nwitch][] (and [slate-irc][]) plugin for getting bitstamp's last sell price.
+[nwitch][] (and [slate-irc][]) plugin for getting [Bitstamp][]'s last sell price.
 
 ``` irc
 15:44 <KenanY> !bitcoin
@@ -70,3 +70,4 @@ Returns a function that accepts an instance of [slate-irc][].
 
    [nwitch]: https://github.com/KenanY/nwitch
    [slate-irc]: https://github.com/slate/slate-irc
+   [Bitstamp]: https://www.bitstamp.net/
