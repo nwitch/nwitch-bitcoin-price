@@ -14,8 +14,20 @@
     "index.js",
     "LICENSE.txt"
   ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
   "dependencies": {
     "behest": "^0.0.2",
     "bitstamp": "^0.1.5"
+  },
+  "devDependencies": {
+    "lodash.isfunction": "^2.4.1",
+    "readable-stream": "~1.0.0",
+    "slate-irc": "^0.5.0",
+    "tape": "^2.13.1"
   }
 }
