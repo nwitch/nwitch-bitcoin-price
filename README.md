@@ -1,7 +1,7 @@
 # nwitch-bitcoin-price
 
 [![Build Status](https://travis-ci.org/nwitch/nwitch-bitcoin-price.svg)](https://travis-ci.org/nwitch/nwitch-bitcoin-price)
-[![Dependency Status](https://gemnasium.com/nwitch/nwitch-bitcoin-price.png)](https://gemnasium.com/nwitch/nwitch-bitcoin-price)
+[![Dependency Status](https://gemnasium.com/nwitch/nwitch-bitcoin-price.svg)](https://gemnasium.com/nwitch/nwitch-bitcoin-price)
 
 [nwitch][] (and [slate-irc][]) plugin for getting [Bitstamp][]'s last sell price.
 
