@@ -28,6 +28,6 @@
     "lodash.isfunction": "^2.4.1",
     "readable-stream": "~1.0.0",
     "slate-irc": "^0.7.3",
-    "tape": "^2.13.1"
+    "tape": "^3.0.0"
   }
 }
