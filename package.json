@@ -21,7 +21,7 @@
     "test": "tape test/index.js"
   },
   "dependencies": {
-    "behest": "^0.0.2",
+    "behest": "^1.0.0",
     "bitstamp": "^0.1.5"
   },
   "devDependencies": {
