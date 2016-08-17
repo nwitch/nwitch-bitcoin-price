@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "lodash.isfunction": "^3.0.1",
-    "readable-stream": "^2.1.0",
+    "readable-stream": "^2.1.5",
     "slate-irc": "^0.8.1",
     "tape": "^4.5.1"
   }
